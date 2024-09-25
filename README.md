@@ -25,7 +25,7 @@ cd ..
 CUDA_VISIBLE_DEVICES='7' python main.py
 ```
 
-## Step3: record classification result
+## Step4: record classification result
 
 
 ## Citation
