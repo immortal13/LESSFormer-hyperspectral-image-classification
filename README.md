@@ -12,4 +12,37 @@ I have organized the processing codes "HSI_dataset_processing.py" so that you ca
 
 **Houston University (withouot cloud)**: https://github.com/danfenghong/IEEE_TGRS_SpectralFormer
 
-## Step 2: train and test
+## Step 2: compiling cuda files
+```
+cd lib
+. install.sh ## please wait for about 5 minutes
+```
+you can also refer to [ESCNet](https://github.com/Bobholamovic/ESCNet) for the compiling process.
+
+## Step3: train and test
+```
+cd ..
+CUDA_VISIBLE_DEVICES='7' python main.py
+```
+
+## Step3: record classification result
+
+
+## Citation
+If you find this work interesting in your research, please kindly cite:
+```
+@article{zou2022lessformer,
+  title={LESSFormer: Local-enhanced spectral-spatial transformer for hyperspectral image classification},
+  author={Zou, Jiaqi and He, Wei and Zhang, Hongyan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={60},
+  pages={1--16},
+  year={2022},
+  publisher={IEEE}
+}
+```
+Thank you very much! (*^▽^*)
+
+This code is constructed based on [vit-pytorch](https://github.com/lucidrains/vit-pytorch), [ESCNet](https://github.com/Bobholamovic/ESCNet), and [CEGCN](https://github.com/qichaoliu/CNN_Enhanced_GCN), thanks~💕.
+
+If you have any questions, please feel free to contact me (Jiaqi Zou, immortal@whu.edu.cn).
