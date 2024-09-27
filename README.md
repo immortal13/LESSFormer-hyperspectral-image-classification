@@ -22,11 +22,10 @@ you can also refer to [ESCNet](https://github.com/Bobholamovic/ESCNet) for the c
 ## Step3: train and test
 ```
 cd ..
-CUDA_VISIBLE_DEVICES='7' python main.py
+CUDA_VISIBLE_DEVICES=7 python main.py
 ```
 
 ## Step4: record classification result
-
 
 ## Citation
 If you find this work interesting in your research, please kindly cite:
