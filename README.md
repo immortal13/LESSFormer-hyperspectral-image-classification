@@ -1,5 +1,5 @@
 # LESSFormer-hyperspectral-image-classification
-Demo code of "LESSFormer: Local-Enhanced Spectral-Spatial Transformer for Hyperspectral Image Classification"
+Demo code of ["LESSFormer: Local-Enhanced Spectral-Spatial Transformer for Hyperspectral Image Classification"](https://ieeexplore.ieee.org/document/9851468)
 
 ## Step 1: prepare dataset
 **Xiong’an** (1580 × 3750 pixels): http://www.hrs-cas.com/a/share/shujuchanpin/2019/0501/1049.html
