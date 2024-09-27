@@ -26,6 +26,7 @@ CUDA_VISIBLE_DEVICES=7 python main.py
 ```
 
 ## Step4: record classification result
+![image](https://github.com/user-attachments/assets/c7b368ba-7b72-4058-b498-53a5110782d1)
 
 ## Citation
 If you find this work interesting in your research, please kindly cite:
